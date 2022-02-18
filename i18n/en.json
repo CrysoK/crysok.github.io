@@ -1,0 +1,25 @@
+{
+  "lang": "ES",
+  "n": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "h": {
+    "home": "Home<hr>",
+    "projects": "Projects<hr>",
+    "contact": "Contact<hr>"
+  },
+  "about": {
+    "1": "Systems Analysis Bachelor's Student.",
+    "2": "Python, C.",
+    "3": "..."
+  },
+  "projects": {
+    "info": "Some of my projects.",
+    "1": "Finite-state machine simulation in C.",
+    "2": "Discord BOT using Pycord (Python)."
+  },
+  "contact": "Feel free to contact me on my social media or <a href=\"mailto:contact@crysok.tk\">email</a>.",
+  "footer": "Based on <a href=\"https://github.com/Lilykhan786/PortfolioTemplat\" target=\"_blank\">Lilykhan786</a> template."
+}

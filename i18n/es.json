@@ -1,0 +1,25 @@
+{
+  "lang": "EN",
+  "n": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "h": {
+    "home": "Inicio<hr>",
+    "projects": "Proyectos<hr>",
+    "contact": "Contacto<hr>"
+  },
+  "about": {
+    "1": "Estudiante de Licenciatura en Análisis de Sistemas.",
+    "2": "Python, C.",
+    "3": "..."
+  },
+  "projects": {
+    "info": "Algunos de mis proyectos.",
+    "1": "Simulación de autómatas finitos en C.",
+    "2": "BOT de Discord usando Pycord (Python)."
+  },
+  "contact": "No dudes en contactarte a través de mis redes sociales o <a href=\"mailto:contacto@crysok.tk\">email</a>.",
+  "footer": "Basado en la plantilla de <a href=\"https://github.com/Lilykhan786/PortfolioTemplate\" target=\"_blank\">Lilykhan786</a>."
+}

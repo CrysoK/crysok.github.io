@@ -1,19 +1,113 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrysoK</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="icon" href="#">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/@andreasremdt/simple-translator@latest/dist/umd/translator.min.js" defer></script>
+    <script type="module" src="script.js"></script>
   </head>
+
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="proyectos.html">Proyectos</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
+
+    <div class="container">
+
+      <header>
+        <a class="logo" href="#home">
+          <!-- Logo -->
+          <!-- <img src="#"/> -->
+        </a>
+        <nav>
+          <ul class="nav-bar">
+            <div class="bg"></div>
+            <li><a class="nav-link active" href="#home" data-i18n="n.home">...</a></li>
+            <li><a class="nav-link" href="#projects" data-i18n="n.projects">...</a></li>
+            <li><a class="nav-link" href="#contact" data-i18n="n.contact">...</a></li>
+            <li><a class="nav-link" id="lang" data-i18n="lang">...</a></li>
+          </ul>
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!-- Home -->
+        <div id="home">
+          <div class="filter"></div>
+          <section class="intro">
+            <h3>Ezequiel L. Dzioba
+              <hr>
+            </h3>
+            <p data-i18n="about.1">JavaScript must be enabled.</p>
+            <p data-i18n="about.2">...</p>
+            <!-- <p data-i18n="about.3">...</p> -->
+
+            <!-- Social media -->
+
+            <div class="social-media">
+              <a href="https://github.com/CrysoK" target="_blank"><i class='fab fa-github'></i></a>
+              <a href="https://www.linkedin.com/in/EzequielDzioba/" target="_blank"><i
+                  class='fab fa-linkedin-in'></i></a>
+              <a href="https://www.instagram.com/crysok_/" target="_blank"><i class='fab fa-instagram'></i></a>
+              <a href="https://twitter.com/crysok_" target="_blank"><i class='fab fa-twitter'></i></a>
+            </div>
+
+          </section>
+        </div>
+
+        <!-- Projects -->
+        <div id="projects">
+          <h3 data-i18n="h.projects">...
+            <hr>
+          </h3>
+          <p data-i18n="projects.info">...</p>
+          <div class="work-box">
+            <div class="work">
+              <!-- Tarjeta -->
+              <div class="card">
+
+                <a href="https://github.com/CrysoK/TC1-TPT" target="_blank">
+                  <img class="work-img" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Automata_finito.png">
+                  <div class="work-content" data-i18n="projects.1">...</div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="https://github.com/CrysoK/ExaBOT" target="_blank">
+                  <img class="work-img" src="/media/bot.png">
+                  <div class="work-content" data-i18n="projects.2">...</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact">
+          <!-- Social media -->
+          <h3 data-i18n="h.contact">...
+            <hr>
+          </h3>
+          <p data-i18n="contact">...</a>.</p>
+          <!-- Redes sociales -->
+          <div class="social-media">
+            <a href="https://github.com/CrysoK" target="_blank"><i class='fab fa-github'></i></a>
+            <a href="https://www.linkedin.com/in/EzequielDzioba/" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+            <a href="https://www.instagram.com/crysok_/" target="_blank"><i class='fab fa-instagram'></i></a>
+            <a href="https://twitter.com/crysok_" target="_blank"><i class='fab fa-twitter'></i></a>
+          </div>
+        </div>
+
+      </main>
+      <footer class="copyright" data-i18n="footer">...</footer>
+
+    </div>
   </body>
+
 </html>
